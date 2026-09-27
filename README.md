@@ -1,5 +1,49 @@
 # Dokumentasi Praktikum Web: Fundamental HTML
 
+**Identitas Mahasiswa:**
+- **Nama:** Gama Daya Laksana
+- **NIM:** 312510051
+- **Kelas:** I253A
+- **Program Studi:** Teknik Informatika
+- **Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom.
+- **Kampus:** Universitas Pelita Bangsa
+
+## Panduan Screenshot Tugas
+
+Simpan semua file tangkapan layar (screenshot) di dalam folder `screenshots/` dengan format nama angka (`1.png` sampai `8.png`) sesuai tabel berikut:
+
+| No File | Aplikasi / Lokasi | Yang Harus Di-Screenshot |
+|---|---|---|
+| **`ss1.png`** | Browser | Tampilan Paragraf dan Penataan Teks`<p>` di browser. |
+| **`ss2.png`** | Browser | Tampilan heading `<h1>`, `<h2>` di browser. |
+| **`ss3.png`** | Browser | Tampilan hasil pemformatan teks (`<b>`, `<i>`, `<mark>`, `<u>`, `<mark>`, `<strike>`, `<em>`,`<code>`). |
+| **`ss4.png`** | Browser | Tampilan gambar foto profil mahasiswa (`images/profil.jpg`) dengan lebar 200px. |
+| **`ss5.png`** | Browser | Tampilan file `halaman2.html` yang menunjukkan navigasi link dan anchor link. |
+| **`ss6.png`** | Browser | Tampilan Unordered List (`<ul>` keahlian) dan Ordered List (`<ol>` target belajar). |
+| **`ss7.png`** | Browser ([validator.w3.org](http://validator.w3.org)) | Hasil validasi W3C yang menunjukkan halaman bebas error (hijau). |
+
+---
+
+## Struktur Folder
+
+```text
+Lab1Web/
+├── index.html
+├── halaman2.html
+├── images/
+│   └── profil.jpg
+├── screenshots/
+│   ├── ss1.png
+│   ├── ss2.png
+│   ├── ss3.png
+│   ├── ss4.png
+│   ├── ss5.png
+│   ├── ss6.png
+│   ├── ss7.png
+└── README.md
+```
+
+---
 
 ## Pendahuluan
 
@@ -12,6 +56,21 @@ Dokumentasi ini disusun sebagai laporan praktikum untuk mendemonstrasikan pemaha
 ## Implementasi Kode & Dokumentasi
 
 Berikut adalah pembedahan dari setiap elemen HTML dasar yang telah diimplementasikan dalam praktikum ini, meliputi penjelasan konseptual, struktur kode (input), dan representasi visualnya (output).
+
+### Struktur Dasar HTML5
+Membuat file `index.html` dengan kerangka dokumen HTML5: deklarasi `<!DOCTYPE html>`, tag `<html>`, `<head>` untuk judul tab browser, dan `<body>` untuk tempat konten diletakkan.
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Praktikum HTML Dasar</title>
+</head>
+<body>
+</body>
+</html>
+```
 
 ### 1. Paragraf dan Penataan Teks
 
@@ -160,5 +219,22 @@ Komentar yang diapit oleh sintaks `<!--` dan `-->` berfungsi murni sebagai alat 
     <!-- Komentar ini tidak akan muncul di browser -->
     <!--Komentar dapat digunakan untuk memberikan catatan atau penjelasan pada kode HTML -->
 ```
+
+## Pengujian dan Validasi
+
+### Pengujian Browser
+File `index.html` dan `halaman2.html` dibuka melalui browser untuk memastikan:
+- Teks heading, paragraf, gambar, dan daftar tampil dengan rapi.
+- Link internal antar halaman (`index.html` ke `halaman2.html` dan sebaliknya) berfungsi normal.
+- Link eksternal terbuka di tab baru.
+- Anchor link melompat tepat ke elemen yang dituju.
+
+### Validasi W3C
+Kode dicek melalui layanan resmi [W3C Markup Validation](http://validator.w3.org) untuk memastikan struktur dokumen sudah sesuai standar HTML5 dan tidak memiliki error sintaks.
+
+**Screenshot Validasi W3C:**  
+![Validasi W3C](./screenshots/ss7.png)
+
+---
 
 *(Tidak ada output visual pada browser untuk elemen komentar, elemen ini hanya terlihat pada source code / text editor).*

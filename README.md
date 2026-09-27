@@ -115,7 +115,7 @@ Tautan (Hyperlink) adalah jantung dari ekosistem web, memungkinkan transisi dari
 
 **Capture Output:**
 
-> ![Output Navigasi](./screeenshots/ss5.png)
+> ![Output Navigasi](./screenshots/ss5.png)
 
 ### 6. Struktur Daftar (Lists)
 

@@ -16,7 +16,7 @@ Simpan semua file tangkapan layar (screenshot) di dalam folder `screenshots/` de
 |---|---|---|
 | **`ss1.png`** | Browser | Tampilan Paragraf dan Penataan Teks`<p>` di browser. |
 | **`ss2.png`** | Browser | Tampilan heading `<h1>`, `<h2>` di browser. |
-| **`ss3.png`** | Browser | Tampilan hasil pemformatan teks (`<b>`, `<i>`, `<mark>`, `<u>`, `<mark>`, `<strike>`, `<em>`,`<code>`). |
+| **`ss3.png`** | Browser | Tampilan hasil pemformatan teks (`<b>`, `<i>`, `<mark>`, `<u>`, `<mark>`, `<s>`, `<em>`,`<code>`). |
 | **`ss4.png`** | Browser | Tampilan gambar foto profil mahasiswa (`images/profil.jpg`) dengan lebar 200px. |
 | **`ss5.png`** | Browser | Tampilan file `halaman2.html` yang menunjukkan navigasi link dan anchor link. |
 | **`ss6.png`** | Browser | Tampilan Unordered List (`<ul>` keahlian) dan Ordered List (`<ol>` target belajar). |
@@ -118,7 +118,7 @@ HTML menyediakan enam tingkatan tag heading (`<h1>` hingga `<h6>`) yang berfungs
 Untuk memberikan penekanan dan makna khusus pada teks, HTML memiliki serangkaian elemen pemformatan (formatting elements). Penggunaan tag ini tidak hanya mengubah tampilan visual, tetapi juga memberikan makna semantik bagi *Screen Reader* dan mesin pencari (SEO).
 
 * `<b>` & `<i>`: Penebalan dan pemiringan teks dasar.
-* `<u>` & `<strike>`: Garis bawah dan coret teks.
+* `<u>` & `<s>`: Garis bawah dan coret teks.
 * `<mark>`: Memberikan efek sorotan (highlight).
 * `<code>`: Menandai teks sebagai baris kode komputer (menggunakan font *monospace*).
 * `<em>`: Memberikan penekanan empati pada sebuah frasa.

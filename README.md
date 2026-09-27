@@ -220,6 +220,8 @@ Komentar yang diapit oleh sintaks `<!--` dan `-->` berfungsi murni sebagai alat 
     <!--Komentar dapat digunakan untuk memberikan catatan atau penjelasan pada kode HTML -->
 ```
 
+*(Tidak ada output visual pada browser untuk elemen komentar, elemen ini hanya terlihat pada source code / text editor).*
+
 ## Pengujian dan Validasi
 
 ### Pengujian Browser
@@ -291,5 +293,3 @@ Berdasarkan checklist pada modul:
 - [x] Screenshot setiap tahap sudah tersedia (file `ss1.png` sampai `ss7.png` di folder `screenshots/`).
 - [x] README.md sudah menjelaskan proses praktikum.
 - [x] Repository sudah dibuat dan siap dikumpulkan.
-
-*(Tidak ada output visual pada browser untuk elemen komentar, elemen ini hanya terlihat pada source code / text editor).*

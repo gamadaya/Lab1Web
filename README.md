@@ -237,4 +237,59 @@ Kode dicek melalui layanan resmi [W3C Markup Validation](http://validator.w3.org
 
 ---
 
+## Jawaban Pertanyaan Evaluasi
+
+**1. Apa fungsi deklarasi `<!DOCTYPE html>` pada dokumen HTML?**  
+Fungsinya untuk memberi tahu browser bahwa dokumen tersebut memakai standar HTML5. Deklarasi ini membuat browser merender halaman dalam *standard mode*, sehingga tampilan elemen web konsisten dan tidak mengalami masalah layout seperti pada *quirks mode*.
+
+**2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?**  
+- **Tag:** Tanda awalan dan akhiran yang ditulis di dalam tanda kurung siku, contohnya `<p>` (tag pembuka) dan `</p>` (tag penutup).
+- **Elemen:** Kesatuan utuh mulai dari tag pembuka, isi konten teks/elemen lain, sampai tag penutup. Contoh: `<p>Halo Dunia</p>`.
+- **Atribut:** Informasi atau konfigurasi tambahan yang diletakkan di dalam tag pembuka dengan format nama dan nilai, contohnya `href="halaman2.html"` pada tag `<a>` atau `src="gambar.jpg"` pada tag `<img>`.
+
+**3. Apa perbedaan `<p>` dengan `<br>`? Jelaskan penggunaannya.**  
+- Tag `<p>` (*paragraph*) digunakan untuk membuat paragraf baru. Tag ini bertipe blok (*block-level*) dan secara otomatis memiliki jarak margin atas dan bawah.
+- Tag `<br>` (*line break*) adalah tag tunggal yang berfungsi memindahkan teks ke baris baru tanpa membuat paragraf baru dan tanpa margin yang lebar.
+- **Penggunaan:** Gunakan `<p>` untuk membedakan paragraf kalimat atau topik artikel, sedangkan `<br>` dipakai saat butuh ganti baris langsung dalam satu paragraf, misalnya pada penulisan alamat atau bait puisi.
+
+**4. Apa fungsi atribut `href` pada tag `<a>`?**  
+Fungsi `href` (*Hypertext Reference*) adalah menentukan alamat atau URL tujuan ke mana pengguna akan diarahkan saat link tersebut diklik, baik itu file lokal di proyek, alamat web lain di internet, ataupun posisi id tertentu di halaman yang sama.
+
+**5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?**  
+- **Hyperlink internal:** Menghubungkan halaman-halaman yang berada dalam satu folder/proyek web yang sama. Cukup menggunakan path relatif (contoh: `halaman2.html`).
+- **Hyperlink eksternal:** Mengarahkan pengunjung ke website lain di luar domain kita. Harus menyertakan alamat URL lengkap beserta protokolnya (contoh: `https://www.google.com`).
+
+**6. Apa fungsi atribut `src` dan `alt` pada tag `<img>`?**  
+- **`src` (*source*):** Menunjukkan path atau lokasi file gambar yang ingin ditampilkan.
+- **`alt` (*alternative text*):** Menyediakan teks pengganti jika gambar gagal dimuat (misal karena nama file salah atau koneksi bermasalah). Atribut ini juga membantu aksesibilitas bagi pengguna tunanetra yang memakai *screen reader*.
+
+**7. Apa perbedaan penggunaan `<ul>` dan `<ol>`?**  
+- `<ul>` (*unordered list*) dipakai untuk daftar yang urutannya tidak terikat nomor urut atau hierarki tertentu. Ditampilkan dengan bullet point (contoh: daftar hobi, keahlian).
+- `<ol>` (*ordered list*) dipakai untuk daftar yang urutan penomorannya penting (1, 2, 3...). Cocok untuk tahapan kerja, urutan langkah tutorial, atau ranking.
+
+**8. Apa yang terjadi jika path gambar pada atribut `src` salah?**  
+Gambar tidak akan muncul di halaman web dan browser akan menampilkan ikon gambar rusak (*broken image*). Selain itu, teks yang ditulis pada atribut `alt` akan muncul sebagai pengganti gambar tersebut, dan pada browser console akan muncul error `404 Not Found`.
+
+**9. Mengapa struktur heading `h1` sampai `h6` perlu digunakan secara terstruktur?**  
+Supaya susunan konten halaman rapi dan memiliki hierarki informasi yang jelas dari topik utama (`<h1>`) sampai sub-topik (`<h2>` hingga `<h6>`). Struktur yang rapi juga sangat penting untuk membantu mesin pencari (SEO) memahami poin penting artikel serta mempermudah pengguna alat bantu *screen reader* saat menavigasi halaman.
+
+**10. Apa fungsi komentar `<!-- ... -->` dalam kode HTML?**  
+Komentar digunakan untuk menulis catatan dokumentasi atau penanda batas antar bagian kode tanpa ikut ditampilkan oleh browser ke pengguna. Komentar juga berguna saat proses debugging untuk mematikan sementara baris kode tertentu tanpa perlu menghapusnya.
+
+---
+
+## Checklist Sebelum Dikumpulkan
+
+Berdasarkan checklist pada modul:
+- [x] Struktur HTML sudah lengkap.
+- [x] Heading dan paragraf sudah digunakan.
+- [x] Pemformatan teks sudah dicoba.
+- [x] Gambar tampil dengan benar.
+- [x] Hyperlink internal dan eksternal dapat digunakan.
+- [x] Unordered list dan ordered list sudah dibuat.
+- [x] Komentar HTML sudah dicoba.
+- [x] Screenshot setiap tahap sudah tersedia (file `ss1.png` sampai `ss7.png` di folder `screenshots/`).
+- [x] README.md sudah menjelaskan proses praktikum.
+- [x] Repository sudah dibuat dan siap dikumpulkan.
+
 *(Tidak ada output visual pada browser untuk elemen komentar, elemen ini hanya terlihat pada source code / text editor).*
